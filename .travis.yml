@@ -3,9 +3,9 @@ install:
 - sudo dpkg -i hugo*.deb
 - hugo version
 before_script:
-  - rm -rf public
+- rm -rf public
 script:
 - hugo
 branches:
-  only:
-- master
+ only:
+ - master
