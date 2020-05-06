@@ -35,4 +35,9 @@ hugo
 
 git add layouts/404.html
 
+
+//github first time
+git remote add orgin https:://github.com/yoursite
+git push -u orgin master
+
 export FTP_DEPLOY_HOST =gator3269.hostgator.com
