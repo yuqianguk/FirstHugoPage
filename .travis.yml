@@ -12,3 +12,5 @@ script:
 branches:
  only:
  - master
+git:
+  lfs_skip_smudge: true
